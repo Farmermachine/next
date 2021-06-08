@@ -132,7 +132,7 @@ const KISHUAmount = styled(AccountElement)`
   height: 36px;
   font-weight: 500;
   background-color: ${({ theme }) => theme.bg3};
-  background: radial-gradient(174.47% 188.91% at 1.84% 0%, #fddb43 0%, #021d43 100%), #edeef2;
+  background: radial-gradient(174.47% 188.91% at 1.84% 0%, #fdd201 0%, #9c1200 100%), #edeef2;
 `
 
 const KISHUWrapper = styled.span`
@@ -321,7 +321,7 @@ export default function Header() {
           </UniIcon>
         </Title>
         <HeaderLinks>
-          <StyledNavLink as="a" href="https://kishu.finance/" target="_blank">
+          <StyledNavLink as="a" href="https://escobar.financial" target="_blank">
             Home
           </StyledNavLink>
           <StyledNavLink id={`swap-nav-link`} to={'/swap'}>
@@ -340,7 +340,7 @@ export default function Header() {
           >
             {t('pool')}
           </StyledNavLink>
-          <StyledExternalLink id={`stake-nav-link`} href={'https://www.dextools.io/app/uniswap/pair-explorer/0xf82d8ec196fb0d56c6b82a8b1870f09502a49f88'}>
+          <StyledExternalLink id={`stake-nav-link`} href={'https://www.dextools.io/app/uniswap/pair-explorer/'}>
             Chart <span style={{ fontSize: '11px' }}>↗</span>
           </StyledExternalLink>
         </HeaderLinks>
@@ -373,7 +373,7 @@ export default function Header() {
                     </TYPE.white>
                   </HideSmall>
                 )}
-                Billions KISHU
+                Billions eSCOBAR
               </KISHUAmount>
               <CardNoise />
             </KISHUWrapper>

@@ -19,7 +19,7 @@ const ContentWrapper = styled(AutoColumn)`
 
 const ModalUpper = styled(DataCard)`
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-  background: radial-gradient(76.02% 75.41% at 1.84% 0%, #fddb43 0%, #021d43 100%);
+  background: radial-gradient(76.02% 75.41% at 1.84% 0%, #fdd201 0%, #9c1200 100%);
   padding: 0.5rem;
 `
 
@@ -53,7 +53,7 @@ export default function UniBalanceContent({ setShowUniBalanceModal }: { setShowU
         <CardNoise />
         <CardSection gap="md">
           <RowBetween>
-            <TYPE.white color="white">Your KISHU Breakdown</TYPE.white>
+            <TYPE.white color="white">Your eSCOBAR Breakdown</TYPE.white>
             <StyledClose stroke="white" onClick={() => setShowUniBalanceModal(false)} />
           </RowBetween>
         </CardSection>
@@ -80,11 +80,11 @@ export default function UniBalanceContent({ setShowUniBalanceModal }: { setShowU
         <CardSection gap="sm">
           <AutoColumn gap="md">
             <RowBetween>
-              <TYPE.white color="white">1 Billion KISHU price:</TYPE.white>
+              <TYPE.white color="white">1 Billion eSCOBAR price:</TYPE.white>
               <TYPE.white color="white">${uniPrice?.toFixed(2) ?? '-'}</TYPE.white>
             </RowBetween>
             {/* <RowBetween>
-              <TYPE.white color="white">KISHU in circulation:</TYPE.white>
+              <TYPE.white color="white">eSCOBAR in circulation:</TYPE.white>
               <TYPE.white color="white">{circulation?.toFixed(0, { groupSeparator: ',' })}</TYPE.white>
             </RowBetween> */}
             <RowBetween>
@@ -92,7 +92,7 @@ export default function UniBalanceContent({ setShowUniBalanceModal }: { setShowU
               <TYPE.white color="white">{totalSupply?.toFixed(0, { groupSeparator: ',' })} B</TYPE.white>
             </RowBetween>
             {uni && uni.chainId === ChainId.MAINNET ? (
-              <ExternalLink href={`https://uniswap.info/token/${uni.address}`}>View KISHU Analytics</ExternalLink>
+              <ExternalLink href={`https://uniswap.info/token/${uni.address}`}>View eSCOBAR Analytics</ExternalLink>
             ) : null}
           </AutoColumn>
         </CardSection>
