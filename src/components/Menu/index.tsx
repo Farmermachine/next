@@ -85,7 +85,7 @@ const MenuItem = styled(ExternalLink)`
   }
 `
 
-const CODE_LINK = 'https://github.com/Kishu-Inu/kishuswap-interface'
+const CODE_LINK = 'Coming Soon !'
 
 export default function Menu() {
   // const { account } = useActiveWeb3React()
@@ -111,7 +111,7 @@ export default function Menu() {
           </MenuItem>
           <MenuItem id="link" href={CODE_LINK}>
             <Code size={14} />
-            Code
+            CoinGecko
           </MenuItem>
           <MenuItem id="link" href="https://t.me/eSCOBAR">
             <MessageCircle size={14} />
