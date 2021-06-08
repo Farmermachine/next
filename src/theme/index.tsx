@@ -61,14 +61,14 @@ export function colors(darkMode: boolean): Colors {
     advancedBG: darkMode ? 'rgba(0,0,0,0.1)' : 'rgba(255,255,255,0.6)',
 
     //primary colors
-    primary1: darkMode ? '#fdd201' : '#9c1200',
+    primary1: darkMode ? '#9c1200' : '#9c1200',
     primary2: darkMode ? '#3680E7' : '#FF8CC3',
     primary3: darkMode ? '#4D8FEA' : '#FF99C9',
     primary4: darkMode ? '#376bad70' : '#F6DDE8',
     primary5: darkMode ? '#9c1200' : '#ffd0c7',
 
     // color text
-    primaryText1: darkMode ? '#FFFFFF' : '#9c1200',
+    primaryText1: darkMode ? '#FFFFFF' : '#fdd201',
 
     // secondary colors
     secondary1: darkMode ? '#2172E5' : '#ff007a',
